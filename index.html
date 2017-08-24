@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<section class="main-content">
+
+
+    <article class="module color-3">
+    <h1> Welcome! </h1>
+    This is the official website for the Fall 2016 Peer-led Data Analysis in R at UT Austin, offered through the <a href="http://ccbb.biosci.utexas.edu/">Center for Computational Biology and Bioinformatics</a>. The goal of this class is to provide the practical statistical and programmatic experience for running data analyses on scientific data using <a href="https://www.r-project.org/">R</a> and <a href="https://www.rstudio.com/">RStudio</a>. 
+    <br><br>
+    The class will meet on Fridays from 2-3 pm in FNT 1.104, with 30 minutes after class for optional extended exercises. In addition, feel free to join us for Open Coding Hour at Wednesdays 4-5pm in CCBB conference room (MBB Library/Lounge -- MBB 2nd floor classroom with glass tile walls) for any extra help or feedback.       
+    <br><br>
+    Please use the links to the left for contact information and some useful R resources, and join the UTlist - rstats, which will email updates about the sessions periodically. Please also feel free to participate in the new Slack group, ut-open-coding-bio, and join the class channel: <a href="https://ut-open-coding-bio.slack.com/x-42134075029-42895634710/signup">2016-rstats-fall-seminar</a>. If you have a utexas email address, you should be able to join instantly, otherwise please email <a href="mailto:spleonard1@gmail.com">Sean Leonard</a> to get access.
+    <br><br>
+    The introductory survey can be found <a href="https://www.surveymonkey.com/r/RCCK76V">here</a>. Please fill it out if you plan on attending the class.
+    <br><br>
+        
+    
+    <h2> Installation and Setup Instructions </h2>
+    You will first need to install <a href="https://cran.rstudio.com/">R</a> on your machine. Then we highly recommend installing <a href="https://www.rstudio.com/products/rstudio/download3/">RStudio</a>  as it's a nice and easy interface for coding in R. That's it! You're ready for the seminar!
+
+    </article>
+
+    <article class="module color-3">
+    
+        <h1> Schedule and Materials </h1>
+        <table>
+            <tr>
+                <th>Date</th> 
+                <th>Topic</th>
+                <th>Materials (Download Link)</th>
+                <th>Instructor</th>
+            </tr>
+
+        {% for post in site.posts reversed %}
+             <tr>
+                 <td> {{ post.date | date: '%B %d, %Y' }} </t>
+                 <td align="left"> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </td>
+                 <td> <a href="{{ post.materials }}">Cheatsheet and Files</a></td> 
+                 <td> {{ post.instructor }} </td> 
+              </tr>   
+
+        {% endfor %}
+        </table>
+    
+    
+    
+    
+    </article>
+
+
+    <!--
+   {% for post in site.posts %}
+        <article class="module color-3">
+                <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                <span class="category">{{ post.categories | array_to_sentence_string }}</span>
+                <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
+        </article>
+    {% endfor %}
+
+   
+    <div class="module pagination color-3">
+        {% if paginator.previous_page %}
+            <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% endif %}
+
+        <span class="page_number">&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;</span>
+
+        {% if paginator.next_page %}
+            <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
+        {% endif %}
+    </div>-->
+
+</section>
+
+
