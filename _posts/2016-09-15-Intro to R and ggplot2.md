@@ -5,6 +5,7 @@ instructor: Spencer Fox
 permalink: /intro_r/
 materials: files/1_intro_r.zip
 ---
+## Not up-to-date for 2017
 
 For our first week in the new **rstats** peer-led graduate seminar, we will be focusing on getting everyone up and running in R. We will cover basic philosophy of programming in R for data analysis, introductory R material, and then introduce the `readr` package as the first data analysis skill. The slides can be found [here](https://github.com/CCBBatUT/rstats_fall2016/blob/gh-pages/files/intro_r_presentation.pdf), and the in class materials can be downloaded [here](https://github.com/CCBBatUT/rstats_fall2016/raw/gh-pages/files/1_intro_r.zip).
 
