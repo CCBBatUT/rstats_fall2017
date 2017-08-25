@@ -1,7 +1,7 @@
 # General
-name: "RStats 2016"
+name: "RStats 2017"
 description: "Peer-led Data Analysis in R"
-baseurl: "/rstats_fall2016"
+baseurl: "/rstats_fall2017"
 future: true
 
 
