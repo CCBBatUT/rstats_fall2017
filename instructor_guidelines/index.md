@@ -26,7 +26,7 @@ All of the materials should be put online the day before the class. There are tw
 
 ------------------------------
 
-## Presentation Format
+## Helpful tips
 We have compiled a list of helpful tips that we have found to be effective while teaching these seminars. 
 
 1. Keep it simple. Many attendees have never used R before, and you should always assume people do not understand how functions work, how to format input, and hot to interpret function output.
@@ -34,11 +34,7 @@ We have compiled a list of helpful tips that we have found to be effective while
 1. If you give an example workflow, make sure to motivate the example, and relate each step back to the overall goal of the example.
 1. You might think you are doing really simple examples, but you aren't. Make sure that you fully explain each step. Simple examples, thoroughly explained, are better than comprehensive examples cursorly explained.
 1. Never say "never use x"
-    - it gives the impression of why should I even try if there is so much that I need to learn. When you are initially starting, any small steps towards computational things is important and should be fostered.
-1. 
+    - it gives the impression of why should I even try if there is so much that I need to learn. When you are initially starting, any small steps towards computational things is important and should be fostered. The irony isn't lost on me that I just broke my own rule :).
 
 
 
-------------------------------
-
-## Helpful tips
